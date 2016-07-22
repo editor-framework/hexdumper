@@ -1,0 +1,25 @@
+{
+  "name": "hexdumper",
+  "version": "0.0.1",
+  "description": "Hex dumper",
+  "author": "Johnny Wu",
+  "main": "main.js",
+  "main-menu": {
+    "Tools/Hex Dumper": {
+      "message": "hexdumper:open"
+    }
+  },
+  "panel": {
+    "main": "panel/panel.js",
+    "type": "dockable",
+    "title": "Hex Dumper",
+    "width": 300,
+    "height": 600,
+    "min-width": 200,
+    "min-height": 200,
+    "shortcuts": {}
+  },
+  "dependencies": {
+    "hexy": "^0.2.7"
+  }
+}
